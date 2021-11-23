@@ -1,0 +1,88 @@
+.main-color {
+  color: rgb(255, 72, 0);
+}
+.hover-main-color:hover {
+  cursor: pointer;
+  transition: 0.25s;
+  color: rgb(255, 145, 0);
+}
+
+.small-text-1 {
+  font-size: 14px;
+}
+.small-text-2 {
+  font-size: 12px;
+  line-height: 4px;
+}
+.hr-main {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.199);
+}
+.no-edge {
+  border-radius: 5px;
+}
+
+/* movie list scroll animation */
+@keyframes right {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+@keyframes left {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+.go-left {
+  animation: left 0.5s forwards;
+}
+.go-right {
+  animation: right 0.5s forwards;
+}
+
+@keyframes to-left {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+@keyframes to-right {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+.to-left {
+  animation: to-left 0.5s forwards;
+}
+.to-right {
+  animation: to-right 0.5s forwards;
+}
+
+.white {
+  color: white;
+}
+.down {
+  position: relative;
+  top: 300px;
+  color: white;
+  left: 50%;
+}
+.bg {
+  font-size: 200px;
+}
+.center {
+  position: relative;
+  top: 180px;
+  color: white;
+  left: 35%;
+}
