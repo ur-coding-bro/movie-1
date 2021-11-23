@@ -1,7 +1,5 @@
 import React from "react";
-import { data } from "../data";
 import { useParams } from "react-router";
-import defaultIMG from "../images/default.jpg";
 import { Provide } from "../context";
 import { useContext } from "react";
 
